@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form validator</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div id="container" class="bg-white rounded-lg">
+      <form id="form" class="form">
+        <h2 class="text-center">Register With Us</h2>
+
+        <div class="form-control">
+          <label for="username">User Name</label>
+          <input type="text" id="username" placeholder="Enter username" />
+          <small>Error message</small>
+        </div>
+
+        <div class="form-control">
+          <label for="Email">Email</label>
+          <input type="text" id="email" placeholder="Enter Email" />
+          <small>Error message</small>
+        </div>
+
+        <div class="form-control">
+          <label for="Password">Password</label>
+          <input type="password" id="Password" placeholder="Enter Password" />
+          <small>Error message</small>
+        </div>
+
+        <div class="form-control">
+          <label for="Password2">Confirm</label>
+          <input
+            type="password2"
+            id="Password2"
+            placeholder="Enter password again"
+          />
+          <small>Error message</small>
+        </div>
+
+        <button>Submit</button>
+      </form>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
